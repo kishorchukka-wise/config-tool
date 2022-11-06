@@ -75,17 +75,24 @@ export const settlementModels = [
 	},
 ];
 
+export const spendModels = [
+	{
+		key:'cards-spend', 
+		description: 'Card issuance'
+	},
+]
+
 export const refundModels = [
 	{
-		key:'transfer-by-transfer', 
+		key:'transfer-by-transfer-refund', 
 		description: 'Transfer by Transfer'
 	},
 	{
-		key:'net-settlement', 
+		key:'net-settlement-refund', 
 		description: 'Net Settlement'
 	},
 	{
-		key:'refund-to-balance', 
+		key:'refund-to-balance-refund', 
 		description: 'Refund to Balance'
 	},
 ];
@@ -113,20 +120,23 @@ export const holdModels = [
 		key:'balance', 
 		description: 'MCA Balance Accounts'
 	},
+	{
+		key:'bank', 
+		description: 'Bank Account Details'
+	},
 ]
-
 
 export const receiveModels = [
 	{
-		key:'swift', 
+		key:'swift-receive', 
 		description: 'SWIFT'
 	},
 	{
-		key:'bank-account-details', 
+		key:'bank-account-details-receive', 
 		description: 'Bank Account Details'
 	},
 	{
-		key:'balance-top-up', 
+		key:'balance-top-up-receive', 
 		description: 'Balance Top-Up'
 	},
 ]

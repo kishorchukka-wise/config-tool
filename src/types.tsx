@@ -7,3 +7,9 @@ export type Config = {
 	partnerId: string;
 	configItems: ConfigItem[];
   }
+
+export type  ConfigBlock = {
+	type: string;
+	items: ConfigItem[];
+	policies: string[];
+}
